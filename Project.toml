@@ -1,0 +1,13 @@
+name = "SimpleTest"
+uuid = "07aa9828-0c88-4da3-89d2-942d37862e65"
+authors = ["Sambuddha Chakrabarti"]
+version = "0.1.0"
+
+[compat]
+julia = "1"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
