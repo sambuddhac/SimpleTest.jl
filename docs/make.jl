@@ -21,4 +21,8 @@ makedocs(;
 
 deploydocs(;
     repo="github.com/sambuddhac/SimpleTest.jl.git",
+    target = "build",
+    branch = "gh-pages",
+    devbranch = "main",
+    push_preview = true,
 )
