@@ -6,7 +6,7 @@ DocumenterTools.genkeys(user="sambuddhac", repo="git@github.com:sambuddhac/Simpl
 makedocs(;
     modules=[SimpleTest],
     authors="Sambuddha Chakrabarti",
-    repo="https://github.com/sambuddhac/SimpleTest.jl/blob/{commit}{path}#{line}",
+    #repo="https://github.com/sambuddhac/SimpleTest.jl/blob/{commit}{path}#{line}",
     sitename="SimpleTest.jl",
     format=Documenter.HTML(;
         prettyurls=get(ENV, "CI", "false") == "true",
@@ -15,9 +15,10 @@ makedocs(;
     ),
     pages=[
         "Home" => "index.md",
+        "Simple Operation" => "simple-operation.md",
     ],
 )
 
 deploydocs(;
-    repo="github.com/sambuddhac/SimpleTest.jl",
+    repo="github.com/sambuddhac/SimpleTest.jl.git",
 )
