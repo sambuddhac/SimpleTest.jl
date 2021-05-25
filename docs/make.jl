@@ -2,7 +2,7 @@ using SimpleTest
 using Documenter
 
 DocMeta.setdocmeta!(SimpleTest, :DocTestSetup, :(using SimpleTest); recursive=true)
-DocumenterTools.genkeys(user="sambuddhac", repo="git@github.com:sambuddhac/SimpleTest.jl.git")
+#DocumenterTools.genkeys(user="sambuddhac", repo="git@github.com:sambuddhac/SimpleTest.jl.git")
 makedocs(;
     modules=[SimpleTest],
     authors="Sambuddha Chakrabarti",
