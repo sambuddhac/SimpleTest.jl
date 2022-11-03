@@ -1,3 +1,4 @@
 [deps]
 Documenter = "e30172f5-a6a5-5a46-863b-614d45cd2de4"
 SimpleTest = "07aa9828-0c88-4da3-89d2-942d37862e65"
+DataStructures = "864edb3b-99cc-5e75-8d2d-829cb0a9cfe8"
