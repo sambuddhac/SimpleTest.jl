@@ -1,3 +1,12 @@
+environment_path = "package_activate.jl"
+include(environment_path) #Run this line to activate the Julia virtual environment; skip it, if the appropriate package versions are installed
+
+### Set relevant directory paths
+src_path = "src/"
+inpath = pwd()
+
+println("Loading packages")
+push!(LOAD_PATH, src_path)
 using SimpleTest
 using YAML
 println("Enter two numbers")
