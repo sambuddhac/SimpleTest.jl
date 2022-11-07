@@ -11,7 +11,7 @@ makedocs(;
     sitename="SimpleTest.jl",
     format=Documenter.HTML(;
         prettyurls=get(ENV, "CI", "false") == "true",
-        canonical="https://sambuddhac.github.io/SimpleTest.jl",
+        canonical="https://sambuddhac.github.io/SimpleTest.jl/stable",
         assets=String[],
     ),
     pages=[
